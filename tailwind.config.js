@@ -1,0 +1,56 @@
+module.exports = {
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      backgroundImage: (theme) => ({
+        hero: "url('/images/banner.jpg')",
+        contact: "url('/images/contact-bg.jpg')",
+      }),
+      height: (theme) => ({
+        100: "400px",
+        110: "440px",
+        120: "480px",
+        130: "520px",
+        "88Vh": "88vh",
+        "12Vh": "12vh",
+        "screen9/10": "90vh",
+        "screen8/10": "80vh",
+        "screen7/10": "70vh",
+        "screen6/10": "60vh",
+        "screen1/10": "10vh",
+        "screen/2": "50vh",
+        "screen/3": "calc(100vh / 3)",
+        "screen/4": "calc(100vh / 4)",
+        "screen/5": "calc(100vh / 5)",
+      }),
+      maxHeight: (theme) => ({
+        100: "400px",
+        110: "440px",
+        120: "480px",
+        130: "520px",
+        "88Vh": "88vh",
+        "12Vh": "12vh",
+        "screen9/10": "90vh",
+        "screen8/10": "80vh",
+        "screen7/10": "70vh",
+        "screen6/10": "60vh",
+        "screen1/10": "10vh",
+        "screen/2": "50vh",
+        "screen/3": "calc(100vh / 3)",
+        "screen/4": "calc(100vh / 4)",
+        "screen/5": "calc(100vh / 5)",
+      }),
+      width: (theme) => ({
+        100: "400px",
+        110: "440px",
+        120: "480px",
+        130: "520px",
+      }),
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
